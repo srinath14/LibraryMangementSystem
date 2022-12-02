@@ -582,9 +582,9 @@ void listSymmetricDifference(struct FR flight[],struct FR list2[],struct FR list
 //MAIN FUNCTION
 int main()
 {
-	struct FR flight[size];
-	struct FR list2[size];
-    struct FR list3[2*size];
+	FR flight[size];
+	FR list2[size];
+    	FR list3[2*size];
 	int i,flag=1,option,classbutton;
 	Initialize(flight,size);
 	printf("ENTER THE FLIGHT RECORDS:\n");
